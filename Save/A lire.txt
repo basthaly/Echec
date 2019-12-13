@@ -1,0 +1,4 @@
+Les fichiers sauvegarde ne sont lisible que par marshal
+il sont donc incompréhensible à lire
+Il s'agit de chaque tour de précedente partie
+save.txt est une variable global permettant de charger la dernière partie

@@ -1,0 +1,65 @@
+Jeu 1.0:
+-Création entier d'un echiquier
+-Déplacement par coordonées des pions
+-Interface graphique entre l'utilisateur et la console
+-Menu permettant de redemarrer, ainsi qu'une aide
+à la compréhension du programme
+-Pion éliminé afficher sur le coté
+-Mise en place des avertissement lors de faux déplacement ( Pion, Cavalier )
+-Mesure pour que le Roi ne puisse être mangé
+
+Mise à jour 1.01:
+-Ajout du début de la fonction de Mise en echec 
+
+Mise à jour 1.02:
+-Ajout de la fonction mise en echec avec les pions ennemis
+
+Mise à jour 1.03:
+-Ajout de la fonction mise en echec avec les cavaliers
+
+Mise à jour 1.04:
+-Ajout de la fonction annulée un mouvement
+-Ajustement du Pion qui pouvait se déplace de H7 à A1 
+-Travail sur l'annulation de plusieurs coup
+
+Mise à jour 1.05:
+-On peut désormais annuler autant de coup que l'on souhaite
+-Corrections de beug lié au hors plateau lors de la mise en echec
+
+Mise à jour 1.06:
+-Mise en place des coup impossible (Si un roi est en échec 2 fois
+d'affilé, le coup se verra annulé)
+-Mise à jour, des erreur de déplacement lié à de mauvaise
+coordonées.
+
+Mise à jour 1.07:
+-Un pion qui arrive dans le camp adverse sera désormais une dame
+-résolution de quelque bug présent dans le jeu
+-Annulation de mise en place de coup impossible le temps de régler
+le bug lié a cette fonction
+
+Mise à jour 1.08:
+-Ajout du jeu par clic
+-il sont désormais de retour, les déplacement impossibles sont
+cette fois fonctionnel
+-Le roi deviens rouge lorsqu'il est en echec
+-Fais la différence entre un retour forcé et un retour par utilisateur.
+
+Mise à jour 1.09:
+-Mise à jour des message d'erreur, on évite les pop-up et on passe sur
+un message en bas du logiciel.
+-Rectification d'un bug disant au fou ou à la reine qu'un pion
+génait la route alors que c'était juste une erreur de coordonnée
+-Mise à jour de la page Aide, maintenant plus facile à comprendre
+et evitant le pop-up
+-Plus aucun Pop-up dans le programme, hop bon débarras!
+
+Mise à jour 1.1:
+-Mise en place du retour à la dernière partie
+-A propos mise à jour ( un pop-up qui était resté chaché :O )
+
+Mise à jour 1.11:
+-Maintenant que le jeu est stable et avec la plupart des fonction nécessaire, on peut ajouter la fonction de tour.
+-Lors de son tour, si une action entraine l'echec de son roi,
+elle sera immediattement annulé, et le joueur sera prévenu.
+-Correction d'un bug ou le roi pouvait dans une certaine position etre en echec par son propre cavalier.
